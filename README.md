@@ -25,13 +25,13 @@ Oh My Bash is installed by running one of the following commands in your termina
 #### via curl
 
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/22116/oh-my-bash/master/tools/install.sh)"
 ```
 
 #### via wget
 
 ```shell
-sh -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/22116/oh-my-bash/master/tools/install.sh -O -)"
 ```
 
 ## Using Oh My Bash
@@ -73,7 +73,7 @@ To use a different theme, simply change the value to match the name of your desi
 ```shell
 OSH_THEME="agnoster" # (this is one of the fancy ones)
 # you might need to install a special Powerline font on your console's host for this to work
-# see https://github.com/ohmybash/oh-my-bash/wiki/Themes#agnoster
+# see https://github.com/22116/oh-my-bash/wiki/Themes#agnoster
 ```
 
 Open up a new terminal window and your prompt should look something like this:
@@ -112,7 +112,7 @@ export OSH="$HOME/.dotfiles/oh-my-bash"; sh -c "$(curl -fsSL https://raw.githubu
 ##### 1. Clone the repository:
 
 ```shell
-git clone git://github.com/ohmybash/oh-my-bash.git ~/.oh-my-bash
+git clone git://github.com/22116/oh-my-bash.git ~/.oh-my-bash
 ```
 
 ##### 2. *Optionally*, backup your existing `~/.bashrc` file:
